@@ -1,5 +1,29 @@
 body {
     background-image: linear-gradient(to bottom, #ffffff, #fffaff, #fff4f3, #fff3db, #fef9ca);
+    max-width: 600px;
+    padding: 0;
+}
+
+/* adds border-box to make responsive layout manageable by including padding for the entire length and width of webpage*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+/* Adds a wrapper class to control the entire content( section and divs) of the webpage for a responsive arrangement*/
+.wrapper, .topnav {
+    max-width: 600px;
+    margin: 0 auto;
+    max-height: max-content;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: century-gothic, sans-serif;
+    font-weight: 700;
+    font-style: normal;   
 }
 
 footer{
