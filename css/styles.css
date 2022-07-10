@@ -1,3 +1,7 @@
 body {
-    background-color: aquamarine;
+    background-image: linear-gradient(to bottom, #ffffff, #fffaff, #fff4f3, #fff3db, #fef9ca);
+}
+
+footer{
+    background-color: #4B2750;
 }
