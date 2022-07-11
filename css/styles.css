@@ -177,6 +177,8 @@ h2 {
 
 .who {
     background-color: #fef9ca;
+    margin: 0 auto;
+    padding-bottom: 0;
 }
 
 #check {
@@ -187,7 +189,14 @@ h2 {
     margin-left: 105px;
 }
 .ourMoods {
-    margin: 15px 0 25px 0;
+    margin-bottom: 15px;
+    background-image: url("../references/rose-icecream-derivatives/rose-icecream-320_x_106.jpg");
+    max-width: 100%;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 120px;
 }
 
 footer {
