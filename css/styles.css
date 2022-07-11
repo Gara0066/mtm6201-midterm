@@ -15,7 +15,7 @@ body {
 /* Adds a wrapper class to control the entire content( section and divs) of the webpage for a responsive arrangement*/
 .wrapper,
 .topnav {
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
     max-height: max-content;
     overflow: hidden;
@@ -114,12 +114,25 @@ a:hover {
     background: #FEF9CA;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    transition: transform 0.5s cubic-bezier(.7,.1,.74,.16);
 }
 #menu li {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 10px 20px 20px 1px;
+  font-size: 30px;
 }
+
+/***MAKES TRANSITION FADE IN****/
+#menuToggle input:checked ~ ul {
+  transform: none;
+  opacity: 1;
+}
+@media screen and (max-width: 375px) {
+    #menu {
+      transform: none;
+      opacity: 0;
+      transition: opacity 0.5s cubic-bezier(.98,.44,.57,.65);
+    }
+  }
 
 
 
