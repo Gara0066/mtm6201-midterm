@@ -161,7 +161,7 @@ h2 {
     text-shadow: 5px 5px 10px gray;
 }
 
-#Want {
+#Want, #check {
     background-color: #c1be4a;
     color: #fff;
     font-weight: 600;
@@ -179,16 +179,13 @@ h2 {
     background-color: #fef9ca;
 }
 
-
-
-
-
-
-
-
-
-
-
+#check {
+    font-family: century-gothic, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 165px;
+    height: 50px;
+}
 
 
 footer {
