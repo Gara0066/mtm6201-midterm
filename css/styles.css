@@ -103,7 +103,7 @@ a:hover {
     transform: rotate(-45deg) translate(2px, -5px);
 }
 
-/****MAKE THE MENU ABSOLUTE*****/
+/**************************************MAKE THE MENU ABSOLUTE
 #menu {
     position: absolute;
     width: 380px;
@@ -114,27 +114,39 @@ a:hover {
     background: #FEF9CA;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    transition: transform 0.5s cubic-bezier(.7,.1,.74,.16);
-}
-#menu li {
-  padding: 10px 20px 20px 1px;
-  font-size: 30px;
+    transition: transform 0.5s cubic-bezier(.7, .1, .74, .16);
 }
 
-/***MAKES TRANSITION FADE IN****/
-#menuToggle input:checked ~ ul {
-  transform: none;
-  opacity: 1;
+#menu li {
+    padding: 10px 20px 20px 1px;
+    font-size: 30px;
 }
+
+/***MAKES TRANSITION FADE IN
+#menuToggle input:checked~ul {
+    transform: none;
+    opacity: 1;
+}
+
 @media screen and (max-width: 375px) {
     #menu {
-      transform: none;
-      opacity: 0;
-      transition: opacity 0.5s cubic-bezier(.98,.44,.57,.65);
+        transform: none;
+        opacity: 0;
+        transition: opacity 0.5s cubic-bezier(.98, .44, .57, .65);
     }
-  }
-
-
+} ******************************************************************************/
+wrapper {
+    
+}
+h1,
+h2 {
+    font-family: coquette, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h1 {
+    font-size: 25px;
+}
 
 
 
