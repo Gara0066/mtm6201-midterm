@@ -1,8 +1,9 @@
 body {
-    background-image: linear-gradient(to bottom, #ffffff, #fffaff, #fff4f3, #fff3db, #fef9ca);
     max-width: 600px;
     padding: 0;
     overflow-x: hidden;
+    font-family: century-gothic, sans-serif;
+    line-height: 1.8;
 }
 
 /* adds border-box to make responsive layout manageable by including padding for the entire length and width of webpage*/
@@ -13,12 +14,16 @@ body {
 }
 
 /* Adds a wrapper class to control the entire content( section and divs) of the webpage for a responsive arrangement*/
-.wrapper,
-.topnav {
-    max-width: 400px;
+.wrapper {
+    max-width: 600px;
     margin: 0 auto;
     max-height: max-content;
     overflow: hidden;
+    padding: 15px 30px 15px 30px;
+}
+nav {
+    background-color: #4B2750;
+    height: 88px;   
 }
 
 nav ul {
@@ -135,17 +140,43 @@ a:hover {
         transition: opacity 0.5s cubic-bezier(.98, .44, .57, .65);
     }
 } ******************************************************************************/
-wrapper {
-    
-}
+
 h1,
 h2 {
     font-family: coquette, sans-serif;
-    font-weight: 700;
-    font-style: normal;
 }
 h1 {
     font-size: 25px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: #909a32;
+    text-shadow: 5px 5px 10px gray;
+}
+
+#Want {
+    background-color: #c1be4a;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 0ch;
+    height: 45px;
+    width: 125px;
+    box-shadow: 5px 5px 10px #4B2750;
+}
+
+.who {
+    background-color: #fef9ca;
 }
 
 
