@@ -185,6 +185,7 @@ h2 {
     text-align: center;
     width: 165px;
     height: 50px;
+    align-items: center;
 }
 .ourMoods {
     margin: 15px 0 25px 0;
@@ -192,4 +193,38 @@ h2 {
 
 footer {
     background-color: #4B2750;
+    color:#c1be4a;
+    margin: 15px 0 25px 0;
+    display: flex;
+    text-align: center;
+    line-height: 1;
+}
+footer p {
+    color: #fef9ca;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: bold;
+    margin-right: 10px;
+}
+footer p:nth-child(2) {
+    margin-right: 35px;
+}
+footer p:nth-child(4) {
+    margin-right: 115px;
+}
+
+footer p i {
+    font-size: 35px;
+    color: #c1be4a;
+    margin-right: 10px;
+}
+
+footer i {
+    font-size: 40px;
+    text-align: center;
+    margin: 35px 25px 15px 25px;
+}    
+
+footer p:nth-last-child {
+    color: #fef9ca;
 }
