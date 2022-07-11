@@ -186,7 +186,9 @@ h2 {
     width: 165px;
     height: 50px;
 }
-
+.ourMoods {
+    margin: 15px 0 25px 0;
+}
 
 footer {
     background-color: #4B2750;
