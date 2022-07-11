@@ -13,14 +13,20 @@
     <!--Adds header to introduce webpage by placing a logo and to set navigational links-->
     <header>
         <div class="topnav">
-            <nav>
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox"/>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <div class="logo">
                     <a href="#">
                     <!--INSERT LOGO IMAGE
                         img src="" id= "logo" alt="moody-logo"-->
                     </a>
                 </div>
-                <ul>
+                <ul id="menu">
                     <li>
                         <a href="#home">Home</a>
                     </li>

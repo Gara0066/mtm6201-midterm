@@ -2,17 +2,19 @@ body {
     background-image: linear-gradient(to bottom, #ffffff, #fffaff, #fff4f3, #fff3db, #fef9ca);
     max-width: 600px;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* adds border-box to make responsive layout manageable by including padding for the entire length and width of webpage*/
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 }
 
 /* Adds a wrapper class to control the entire content( section and divs) of the webpage for a responsive arrangement*/
-.wrapper, .topnav {
+.wrapper,
+.topnav {
     max-width: 600px;
     margin: 0 auto;
     max-height: max-content;
@@ -23,9 +25,77 @@ nav ul {
     list-style-type: none;
     font-family: century-gothic, sans-serif;
     font-weight: 700;
-    font-style: normal;   
+    font-style: normal;
 }
 
-footer{
+/**HAMBURGER MENU TAKEN FROM https://codepen.io/erikterwan/pen/grOZxx?editors=1100 Made by Erik Terwan**/
+a {
+    text-decoration: none;
+    color: #4B2750;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    background-color: #c1be4a;
+    margin: 0px;
+    padding: 0 5px 0 5px;
+}
+
+#menuToggle {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    z-index: 1;
+}
+
+#menuToggle input {
+    display: block;
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    top: -7px;
+    left: -6px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+#menuToggle span
+{
+  display: block;
+  width: 35px;
+  height: 7px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #909a32;
+  border-radius: 5px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.9s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 3s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/***TRANSFORM HAMBURGER MENU INTO CROSS*****/
+
+
+
+
+
+
+
+
+
+
+
+footer {
     background-color: #4B2750;
 }
