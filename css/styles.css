@@ -403,9 +403,14 @@ footer p nth:last-child {
         color:#FEF9CA;
     }
 
-    footer {
+    .footer {
+        margin: 0 0 20px 0;
         display: flex;
+        justify-content: space-between;
+        text-align: justify;
     }
+    
+
     
     
 }
