@@ -171,9 +171,6 @@ h1 {
     display: flex;
     position: relative; 
 }
-svg {
-    display: none;
-}
 
 h2 {
     font-size: 35px;
@@ -290,6 +287,10 @@ footer p nth:last-child {
         background-color: #FEF9CA;
         fill-opacity: 1;
     }
+    #logo {
+        padding: 0;
+        margin: 0 auto;
+    }
     nav {
         background-color: #FEF9CA;
     }
@@ -361,6 +362,11 @@ footer p nth:last-child {
         display: flex;
         flex-direction: row-reverse;
     }
+    .whoInfo {
+        width: 45%;
+        margin-bottom: 25px;
+        padding-right: 55px;
+    }
     #who {
         background-image: url(../references/whoPhoto-derivatives/whoPhoto-720_x_360.jpg);
         height: 250px;
@@ -373,4 +379,9 @@ footer p nth:last-child {
         position: relative;
         box-shadow: 5px 4px 8px#4B2750;
     }
+    #want {
+        width: 80px;
+    }
+
+
 }
