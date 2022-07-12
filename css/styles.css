@@ -155,8 +155,21 @@ h2 {
 h1 {
     font-size: 25px;
     margin-top: 10px;
+    padding-right: 50px;
+    margin-right: 180px;
     font-weight: 700;
     font-style: normal;
+}
+
+.banner {
+    background-image: url("../references/banner-derivatives/banner-640_x_320.jpg");
+    max-width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: relative; 
 }
 
 h2 {
@@ -166,6 +179,9 @@ h2 {
     margin: 10px;
     color: #909a32;
     text-shadow: 5px 5px 10px gray;
+}
+#want {
+    margin-top:px;
 }
 
 #Want, #check {
@@ -248,3 +264,61 @@ footer i {
 footer p:nth-last-child {
     color: #fef9ca;
 }
+
+@media screen and (min-width: 600px){
+    /* The breakpoint to style is for minimum width of 600px and over */
+
+    /*set min-width for entire body to constrict content and background*/
+    html {
+        min-width: 600px; 
+    }
+
+    body {
+        background-image: linear-gradient(to top, #fef9ca, #fff3db, #fff4f3, #fffaff, #ffffff);
+        min-width: 100%;
+        padding: 0;
+    }
+    header {
+        background-color: #FEF9CA;
+        fill-opacity: 100;
+    }
+    nav {
+        background-color: #FEF9CA;
+    }
+    
+
+    /* changes style of navigation to place it in a row */
+    .topnav, nav {
+        max-width: 100%;
+        display: flex;
+        height: 120px;
+        justify-content: space-around;        
+    } 
+
+    #logo {
+        position:static;
+        margin: 20px 50px 20px 0px;
+        padding-right: 250px;
+        height: 80px;
+    }
+
+    .topnav .logo a:hover {
+        background-color: none;
+    }
+    #menuToggle {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;       
+    }
+
+    nav ul li a {
+        margin: 50px;
+    }
+
+    /* set the container to a maximum width to wrap the content of entire webpage*/
+    .wrapper {
+        max-width: 1200px;    
+    }
