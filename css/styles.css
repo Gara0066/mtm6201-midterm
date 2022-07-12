@@ -382,6 +382,21 @@ footer p nth:last-child {
     #want {
         width: 80px;
     }
-
+    .ourMoods {
+        margin-bottom: 15px;
+        background-image: url("../references/rose-icecream-derivatives/rose-icecream-1440_x_480.jpg");
+        max-width: 100%;    
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 350px;
+        background-color: #fff;
+    }
+    .ourMoods .waves {
+        position: absolute;
+        display: block;
+        bottom: 0;
+    }
 
 }
