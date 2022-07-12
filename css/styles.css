@@ -21,7 +21,7 @@ main {
     margin: 0 auto;
     max-height:max-content;
     overflow: hidden;
-    padding: 15px 30px 15px 30px;
+    padding: 0 30px 0 30px;
 }
 nav {
     background-color: #4B2750;
@@ -228,7 +228,8 @@ h2 {
     height: 120px;
 }
 
-.ourMoods h2 {
+.ourMoods {
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 15px;
 }
@@ -353,9 +354,16 @@ footer p nth:last-child {
         text-shadow :2px 1px 1px #FEF9CA;
         
     }
+    #Want {
+        font-size: 20px;
+        margin: 150px 4px;
+        height: 50px;
+        width: 230px;
+        box-shadow: 5px 5px 10px #4B2750;
+    }
+
     h2{
-        background-color: #FEF9CA;
-        margin-top: 0 auto;
+        margin-top: 0;
         font-size: 65px;
     }
 
@@ -380,13 +388,7 @@ footer p nth:last-child {
         position: relative;
         box-shadow: 5px 4px 8px#4B2750;
     }
-    #Want {
-        font-size: 20px;
-        margin: 150px 4px;
-        height: 50px;
-        width: 230px;
-        box-shadow: 5px 5px 10px #4B2750;
-    }
+    
     .ourMoodsBanner {
         margin-bottom: 15px;
         background-image: url("../references/rose-icecream-derivatives/rose-icecream-1440_x_480.jpg");
@@ -394,13 +396,16 @@ footer p nth:last-child {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        position: relative;
         height: 350px;
     }
-    .ourMoods .waves {
-        position: absolute;
-        display: block;
-        bottom: 0;
+
+    .ourMoods h2 {
+        color:#FEF9CA;
     }
+
+    footer {
+        display: flex;
+    }
+    
     
 }
