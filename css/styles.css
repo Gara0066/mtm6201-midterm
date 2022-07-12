@@ -436,16 +436,16 @@ h2 {
 
     /* adds grid gap to separate each little section equally/ selects grid to properly display 2 rows, specifying each area within the grid design/ adds to each class a grid-area name to reference them in the grid-template-area*/
     .moods h2 {
-        position: absolute;
         font-size: 65px;
-        padding: 5px 0 5px 0;
         text-align: center;
+        margin: auto;
     }
 
-    .products {
+    .moods {
         padding: 0;
         width: 100%;
-        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 35px;
         height: fit-content;
         display: grid;
         grid-gap: 30px;
