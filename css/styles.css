@@ -171,6 +171,9 @@ h1 {
     display: flex;
     position: relative; 
 }
+svg {
+    display: none;
+}
 
 h2 {
     font-size: 35px;
@@ -244,7 +247,7 @@ footer p {
     color: #fef9ca;
     font-size: 15px;
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
     margin-right: 10px;
 }
 footer p:nth-child(2) {
@@ -266,7 +269,7 @@ footer i {
     margin: 35px 25px 15px 25px;
 }    
 
-footer p:nth-last-child {
+footer p nth:last-child {
     color: #fef9ca;
 }
 
@@ -285,7 +288,7 @@ footer p:nth-last-child {
     }
     header {
         background-color: #FEF9CA;
-        fill-opacity: 100;
+        fill-opacity: 1;
     }
     nav {
         background-color: #FEF9CA;
@@ -308,7 +311,7 @@ footer p:nth-last-child {
     }
 
     .topnav .logo a:hover {
-        background-color: none;
+        background-color: transparent;
     }
     #menuToggle {
         display: none;
@@ -328,9 +331,46 @@ footer p:nth-last-child {
         max-width: 1200px;    
     }
     .banner {
-        background-image: url(../references/banner-derivatives/banner-1440_x_720.jpg);
-    }
-    h1 {
+        background-color: #FEF9CA;
+        background-image: url(../references/banner-derivatives/banner-960_x_480.jpg);
+        max-width: 100%;
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        }
+    
+    h1{
         padding: 0;
-        margin-right: 900px;
+        margin-right: 710px;
+        font-size: 80px;
+        color: #4B2750;
+        text-shadow :2px 1px 1px #FEF9CA;
+        
     }
+    h2{
+        background-color: #FEF9CA;
+        margin-top: 0 auto;
+        font-size: 65px;
+    }
+
+    .who .wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #who {
+        background-image: url(../references/whoPhoto-derivatives/whoPhoto-720_x_360.jpg);
+        height: 250px;
+        margin: 150px 0 25px 25px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        display: flex;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 5px 4px 8px#4B2750;
+    }
+}
