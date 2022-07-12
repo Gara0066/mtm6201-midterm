@@ -12,7 +12,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+main {
+    height: fit-content;
+}
 /* Adds a wrapper class to control the entire content( section and divs) of the webpage for a responsive arrangement*/
 .wrapper {
     max-width: 600px;
