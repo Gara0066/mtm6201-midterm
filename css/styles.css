@@ -435,7 +435,7 @@ h2 {
     ************************ STYLE FOR PRODUCT PAGE********************************/
 
     /* adds grid gap to separate each little section equally/ selects grid to properly display 2 rows, specifying each area within the grid design/ adds to each class a grid-area name to reference them in the grid-template-area*/
-    .products h2 {
+    .moods h2 {
         position: absolute;
         font-size: 65px;
         padding: 5px 0 5px 0;
