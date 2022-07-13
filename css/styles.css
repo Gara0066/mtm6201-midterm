@@ -123,18 +123,15 @@ a:hover {
     -webkit-font-smoothing: antialiased;
     transition: transform 0.5s cubic-bezier(.7, .1, .74, .16);
 }
-
 #menu li {
     padding: 10px 20px 20px 1px;
     font-size: 30px;
 }
-
 /***MAKES TRANSITION FADE IN
 #menuToggle input:checked~ul {
     transform: none;
     opacity: 1;
 }
-
 @media screen and (max-width: 375px) {
     #menu {
         transform: none;
@@ -239,7 +236,6 @@ h2 {
     width: 100%;
     margin: 0;
     height: fit-content;
-
 }
 .products img {
     height: 280px;
@@ -247,7 +243,6 @@ h2 {
     border-radius: 50px;
     box-shadow: 2px 4px 8px #4B2750;
 
-}
 footer {
     background-color: #4B2750;
 }
