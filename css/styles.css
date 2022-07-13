@@ -244,6 +244,17 @@ h2 {
     box-shadow: 2px 4px 8px #4B2750;
     
 }
+.moods button {
+    background-color: #4B2750;
+    color: #fef9ca;
+    font-size: 20px;
+    margin: 30px 10px 80px 40px;
+    height: 50px;
+    width: 230px;
+    box-shadow: 5px 5px 10px #4B2750;
+    border-radius: 50px;
+    align-items: center;
+    }
 
 footer {
     background-color: #4B2750;
@@ -520,15 +531,15 @@ justify-content: space-between;
     }
 
     .moods button {
-            background-color: #4B2750;
-            color: #fef9ca;
-            font-size: 20px;
-            margin:30px 15px 15px 5px;
-            height: 50px;
-            width: 230px;
-            box-shadow: 5px 5px 10px #4B2750;
-            border-radius: 50px;
-            align-items: center;
+        background-color: #4B2750;
+        color: #fef9ca;
+        font-size: 20px;
+        margin:30px 15px 15px 5px;
+        height: 50px;
+        width: 230px;
+        box-shadow: 5px 5px 10px #4B2750;
+        border-radius: 50px;
+        align-items: center;
         }
     .products .first {
         grid-area: first;
