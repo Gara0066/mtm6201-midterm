@@ -215,7 +215,8 @@ h2 {
     font-size: 20px;
     width: 165px;
     height: 50px;
-    margin-left: 105px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }
 .ourMoodsBanner {
     margin-bottom: 15px;
@@ -233,7 +234,51 @@ h2 {
     margin-top: 100px;
     margin-bottom: 15px;
 }
+.products {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    height: fit-content;
 
+}
+.products img {
+    height: 280px;
+    margin-left: 18px;
+    border-radius: 50px;
+    box-shadow: 2px 4px 8px #4B2750;
+
+}
+footer {
+    background-color: #4B2750;
+}
+footer p{
+    color: #FEF9CA;
+}
+footer h4 {
+    color: #c1be4a;
+}
+footer .wrapper{
+display: block;
+width: 100%;
+margin-bottom: 40px;
+text-align: left;
+justify-content: space-between;
+}
+.data {
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.socials{
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.copy {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #c1be4a;
+}
+}
 
 /* **********************************************The breakpoint to style is for minimum width of 600px and over ****************************/
 
