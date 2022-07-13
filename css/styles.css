@@ -444,18 +444,36 @@ h2 {
     .moods {
         padding: 0;
         width: 100%;
+        margin-left: 30px;
         margin-top: 20px;
         margin-bottom: 35px;
         height: fit-content;
         display: grid;
-        grid-gap: 30px;
-        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 40px;
+        grid-template-columns: repeat(6, 1fr);
         grid-template-areas: 
         "first first one one two two"
         "three three four four five five"
         "six six seven seven eight eight"
  
     }
+    .products img {
+        height: 250px;
+        border-radius: 50px;
+        box-shadow: 1px 4px 8px #4B2750;
+    }
+
+    .moods button {
+            background-color: #4B2750;
+            color: #fef9ca;
+            font-size: 20px;
+            margin:30px 15px 15px 5px;
+            height: 50px;
+            width: 230px;
+            box-shadow: 5px 5px 10px #4B2750;
+            border-radius: 50px;
+            align-items: center;
+        }
     .products .first {
         grid-area: first;
     }
@@ -512,21 +530,21 @@ h2 {
     text-align: left;
     justify-content: space-between;
     line-height: 2.5;
-  }
-  .data {
-    justify-content: space-around;
-    margin-top: 15px;
-  }
-  .socials{
-    justify-content: space-around;
-    margin-top: 35px;
-  }
-  .copy {
-    margin-top: 25px;
-    text-align: center;
-    margin-bottom: 15px;
-    color: #c1be4a;
-  }
+    }
+    .data {
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+    .socials{
+        justify-content: space-around;
+        margin-top: 35px;
+    }
+    .copy {
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 15px;
+        color: #c1be4a;
+    }
 }
     
 
