@@ -242,6 +242,8 @@ h2 {
     margin-left: 18px;
     border-radius: 50px;
     box-shadow: 2px 4px 8px #4B2750;
+    
+}
 
 footer {
     background-color: #4B2750;
@@ -273,7 +275,7 @@ justify-content: space-between;
     margin-bottom: 15px;
     color: #c1be4a;
 }
-}
+
 
 /* **********************************************The breakpoint to style is for minimum width of 600px and over ****************************/
 
@@ -370,7 +372,12 @@ justify-content: space-between;
         margin-top: 0;
         font-size: 65px;
     }
-
+    h2:hover {
+        transition-duration: .5s;
+        transition-timing-function: ease-in-out;
+        transform: translateY(-9px);
+      }
+      
     .who .wrapper {
         display: flex;
         flex-direction: row-reverse;
@@ -405,6 +412,15 @@ justify-content: space-between;
 
     .ourMoods h2 {
         color:#FEF9CA;
+    }
+    @keyframes color {
+        0% { background-color: #4B2750 }
+        100% { background-color: #909a32 }
+      }
+
+    button:hover {
+        animation-name: color;
+        animation-duration: 1s;
     }
 
     /*****************STYLES FOR CONTACT PAGE************************
