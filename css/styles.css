@@ -128,7 +128,7 @@ a:hover {
     font-size: 30px;
 }
 /***MAKES TRANSITION FADE IN
-#menuToggle input:checked~ul {
+#menuToggle input:checked {
     transform: none;
     opacity: 1;
 }
@@ -214,7 +214,7 @@ h2 {
     font-size: 20px;
     width: 165px;
     height: 50px;
-    margin-left: 5px;
+    margin-left: 65px;
     margin-bottom: 5px;
 }
 .ourMoodsBanner {
@@ -473,12 +473,14 @@ justify-content: space-between;
     }
     @keyframes color {
         0% { background-color: #4B2750 }
-        100% { background-color: #909a32 }
+        100% { background-color: #c1be4a }
+        100% {color:#fef9ca}
+        100% {color: #000000;}
       }
 
     button:hover {
         animation-name: color;
-        animation-duration: 1s;
+        animation-duration: 3s;
     }
 
     /*****************STYLES FOR CONTACT PAGE************************
