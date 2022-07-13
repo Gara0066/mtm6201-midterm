@@ -152,11 +152,13 @@ h2 {
     font-family: coquette, sans-serif;
 }
 h1 {
-    font-size: 25px;
+    color: #FEF9CA;
+    text-shadow: 1px 1px 2px #4B2750;
+    font-size: 30px;
     margin-top: 10px;
-    padding-right: 50px;
-    margin-right: 180px;
-    font-weight: 700;
+    padding-right: 5px;
+    padding-left: 0;
+    margin-right: 100px;
     font-style: normal;
 }
 
@@ -180,7 +182,7 @@ h2 {
     text-shadow: 5px 5px 10px gray;
 }
 #want {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #Want, #check {
